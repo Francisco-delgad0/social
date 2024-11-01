@@ -17,6 +17,13 @@ function Navbar() {
         >
           Adulto Mayor
         </NavLink>
+        <NavLink 
+          to="/Educacion" 
+          className={({ isActive }) => `nav-link text-white ${isActive ? 'active-link' : ''}`} 
+        >
+          Educación
+        </NavLink>
+        
         <span className="nav-indicador"></span>
       </div>
     </nav>

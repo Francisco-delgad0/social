@@ -2,4 +2,22 @@
     background-color: #f8f9fa; 
     padding: 20px; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.educacion-bg {
+    background-color: #e6f7ff; /* Un color azul claro para el fondo */
+    padding: 20px;
+}
+    
+.card {
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+    
+.card-title {
+    font-weight: bold;
+}
+    
+.card-text {
+    color: #333; /* Un color gris oscuro para el texto */
+}

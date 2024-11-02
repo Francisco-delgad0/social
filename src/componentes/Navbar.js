@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaHome, FaUserShield, FaGraduationCap, FaBriefcase } from 'react-icons/fa';
+import { FaHome, FaUserShield, FaGraduationCap, FaBriefcase, FaMoneyBill } from 'react-icons/fa';
 
 function Navbar() {
   return (
@@ -56,6 +56,15 @@ function Navbar() {
               >
                 <FaBriefcase className="me-2" />
                 Empleo
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink 
+                to="/Pensiones" 
+                className={({ isActive }) => `nav-link ${isActive ? 'active-link' : ''} d-flex align-items-center`} 
+              >
+                <FaMoneyBill className="me-2" /> 
+                Pensiones
               </NavLink>
             </li>
           </ul>

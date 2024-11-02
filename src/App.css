@@ -5,6 +5,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
 
+.benficios-bg{
+    background-color: #ffdef2; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
 .beneficios-trabajador-bg {
     background-color: #e9ecee; 
     padding: 20px; 
@@ -41,5 +48,5 @@
   }
 
 .footer {
-    margin-top: 20px; /* Ajusta este valor según sea necesario */
+    margin-top: 20px; 
   }

@@ -6,6 +6,7 @@ import Educacion from './paginas/Educacion';
 import Navbar from './componentes/Navbar';
 import Homepage from './paginas/Homepage'; 
 import Empleo from './paginas/Empleo';
+import Pensiones from './paginas/Pensiones';
 import './App.css';
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
         <Navbar />
 
         <Routes>
-        <Route path="/" element={<Homepage />} /> {/* Ruta principal */}
+        <Route path="/" element={<Homepage />} /> 
         <Route path="/adulto-mayor" element={<AdultoMayor />} />
         <Route path="/Educacion" element={<Educacion />} />
         <Route path='/Empleo' element={<Empleo/>}/>
+        <Route path='/Pensiones' element={<Pensiones/>}/>
         </Routes>
 
       </div>

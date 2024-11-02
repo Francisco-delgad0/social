@@ -72,16 +72,16 @@ const AdultoMayor = () => {
               'Al ingreso del parque, reserva o monumento debes mostrar tu cédula de identidad y podrás entrar de manera gratuita.',
               'Puedes revisar las reservas, parques y monumentos que integran el Sistema en el sitio web de la CONAF.',
             ]
-          },
+          }
 
       ];
     
       return (
         <div className="container adulto-mayor-bg mt-5">
           <h1 className="text-center">Beneficios para Adultos Mayores</h1>
-          <div className="row d-flex flex-wrap justify-content-center"> {/* Flex para ajustar la distribución */}
+          <div className="row d-flex flex-wrap justify-content-center"> 
             {menuItems.map((item) => (
-              <div className="col-12 col-sm-6 col-md-6 mb-4 d-flex" key={item.id}> {/* Máximo 2 columnas en pantallas grandes */}
+              <div className="col-12 col-sm-6 col-md-6 mb-4 d-flex" key={item.id}> 
                 <Carta_Adulto_Mayor subsidio={item} />
               </div>
             ))}

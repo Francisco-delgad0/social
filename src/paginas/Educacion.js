@@ -65,7 +65,7 @@ const Educacion = () => {
             ]
           },
         {
-            id: 5,
+            id: 6,
             nombre: 'Programa Residencia Familiar Estudiantil (PRFE) – Educación superior',
             descripcion: 'Es un beneficio que entrega alojamiento en hogares de familias tutoras a estudiantes que deben trasladarse de su comuna de residencia para continuar sus estudios superiores. También consiste en apoyo de alimentación y en el ámbito pedagógico para facilitar la continuación y la finalización de los estudios de educación superior.',
             requisitos: [
@@ -75,7 +75,7 @@ const Educacion = () => {
             ]
           },
           {
-            id: 5,
+            id: 7,
             nombre: 'Beca Residencia Insular (BRINS)',
             descripcion: 'Es un aporte económico destinado a cubrir parte de los gastos de arriendo para estudiantes que residen en Isla Juan Fernández e Isla de Pascua y que estudian en instituciones de educación superior reconocidas por el Estado. El monto del beneficio corresponde a $981.580 y se paga hasta en 10 cuotas al año.',
             requisitos: [

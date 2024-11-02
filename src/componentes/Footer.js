@@ -5,14 +5,16 @@ import "../App.css"
 
 const Footer = () => {
   return (
-    <footer className="custom-footer">
+    <footer className="custom-footer bg-dark text-light py-4">
       <div className="container text-center text-md-start">
-        <div class="row text center text-md-start">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <p>@ 2024 Parias. Todos los derechos reservados.</p>
+        <div className="row">
+          <div className="col-md-12 col-lg-12 col-xl-12 mx-auto mt-3">
+            <p>@ 2024 Protección Social. Todos los derechos reservados.</p>
+            <p>
+              Sobre nosotros: Este sitio es operado por un equipo comprometido con el bienestar social. Nuestro objetivo es proporcionar información accesible y recursos sobre iniciativas estatales de protección social, ayudando a la comunidad a acceder a subsidios y beneficios disponibles.
+            </p>
           </div>      
-         <p>Sobre nosotros: Operado por un equipo de tres cinéfilos dedicados, nuestro objetivo es ofrecer una selección diversa de películas, desde grandes éxitos de taquilla hasta gemas independientes y producciones locales, en un ambiente acogedor y accesible.</p>
-         </div>
+        </div>
       </div>
     </footer>
   );

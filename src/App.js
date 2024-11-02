@@ -6,6 +6,7 @@ import Educacion from './paginas/Educacion';
 import Navbar from './componentes/Navbar';
 import Homepage from './paginas/Homepage'; 
 import Empleo from './paginas/Empleo';
+import './App.css';
 
 function App() {
   return (

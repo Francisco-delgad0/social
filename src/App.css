@@ -2,16 +2,25 @@
     background-color: #f8f9fa; 
     padding: 20px; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.beneficios-trabajador-bg {
+    background-color: #e9ecee; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
 
 .educacion-bg {
-    background-color: #e6f7ff; /* Un color azul claro para el fondo */
+    background-color: #e6f7ff;
     padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
     
 .card {
-    border-radius: 10px; /* Esquinas redondeadas */
+    border-radius: 10px; 
 }
     
 .card-title {
@@ -19,9 +28,18 @@
 }
     
 .card-text {
-    color: #333; /* Un color gris oscuro para el texto */
+    color: #333; 
 }
 .header-text {
     text-align: center;
-    margin: 20px 0; /* Espaciado opcional */
+    margin: 20px 0; 
 }
+.App {
+    background-color: #b1d5f8; 
+    min-height: 100vh; 
+    padding-bottom: 50px;
+  }
+
+.footer {
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+  }

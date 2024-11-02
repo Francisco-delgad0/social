@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-dark text-light">
       <div className="container-fluid">
         <NavLink 
-          to="/homepage" 
+          to="/" 
           className={({ isActive }) => `nav-link text-white ${isActive ? 'active-link' : ''}`} 
         >
           App

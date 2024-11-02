@@ -21,3 +21,7 @@
 .card-text {
     color: #333; /* Un color gris oscuro para el texto */
 }
+.header-text {
+    text-align: center;
+    margin: 20px 0; /* Espaciado opcional */
+}

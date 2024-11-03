@@ -7,7 +7,9 @@ const AdultoMayor = () => {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
-      i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es');
+      const newLanguage = i18n.language === 'es' ? 'en' : 'es';
+      i18n.changeLanguage(newLanguage);
+      localStorage.setItem('idioma', newLanguage)
   };
     const menuItems = [
         {

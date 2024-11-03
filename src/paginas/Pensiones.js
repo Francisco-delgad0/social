@@ -1,9 +1,17 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Carta_Pensiones from '../componentes/Carta_Pensiones';
 import '../App.css';
 
 
 const Penciones = () => {
+  const { t, i18n } = useTranslation();
+  
+  const toggleLanguage = () => {
+    const newLanguage = i18n.language === 'es' ? 'en' : 'es';
+    i18n.changeLanguage(newLanguage);
+    localStorage.setItem('idioma', newLanguage)
+};
     const retribuciones = [
         {
           id: 1,
@@ -102,6 +110,8 @@ const Penciones = () => {
       return (
         <div className="container benficios-bg mt-5"> 
             <h1 className="text-center">Pensiones para el ciudadano</h1>
+            <button onClick={toggleLanguage} className="btn btn-secondary mb-3">
+            {i18n.language === 'es' ? 'Switch to English' : 'Cambiar a Español'}</button>
             <div className="row d-flex flex-wrap justify-content-center"> 
                 {retribuciones.map((retribucion) => (
                     <div className="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center" key={retribucion.id}>

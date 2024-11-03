@@ -1,0 +1,54 @@
+{
+    "beneficios": "Benefits for Seniors",
+    "subsidio1": {
+      "name": "Rental Subsidy for Seniors and People with Disabilities",
+      "description": "It is an economic contribution aimed at people 60 years of age or older and for people who have a disability condition (regardless of their age), who do not have sufficient income to pay a rent. This subsidy contributes a portion of the rental value of a dwelling. The amount of the subsidy received depends on the section of the Social Registry of Households (RSH) in which the person requesting the benefit is located. This subsidy will cover between 90% and 95% of the monthly rent (in this way the beneficiary will have to contribute between 5% and 10% of the rent as a co-payment). The subsidy is granted for 24 months, which may be used consecutively over a maximum period of eight years.",
+      "requisito1": "People 60 years of age or older, and people with a disability.",
+      "requisito2": "They must have a Chilean identity card (ID).",
+      "requisito3": "Belong to the most vulnerable 70% of the population according to the Social Household Registry/Registro Social de Hogares (RSH).",
+      "requisito4": "They must have a minimum income of 5 UF (approximately 180 thousand pesos)."
+    },
+    "subsidio2": {
+        "name": "Death Benefits",
+        "description": "Allows non-members to access an amount to cover funeral expenses. This is equivalent to three minimum incomes in force at the date of death. During 2024, this benefit corresponds to $966,885 pesos for beneficiaries of the Basic Solidarity Pension/Pensión Básica Solidaria (PBS) and 15 Unidades de Fomento (UF) for beneficiaries of the Universal Guaranteed Pension/Pensión Garantizada Universal (PGU).",
+        "requisito1": "Must have been a beneficiary of the Basic Solidarity Pension/Pensión Básica Solidaria (PBS) before February 1, 2022.",
+        "requisito2": "Must have been a beneficiary of the Universal Guaranteed Pension/Pensión Garantizada Universal (PGU) since February 1, 2022.",
+        "requisito3": "Must have had at least one contribution in any of the former pension funds within the last six months prior to his or her death.",
+        "requisito4": "Must have been a beneficiary or beneficiary of an Occupational Disability Subsidy, Unemployment Subsidy or Disability Subsidy.”",
+        "requisito5": "Must have been a pensioner of the former pension funds and special laws. Exceptions are made for orphan's and cohabitation pensioners (mother of sons or daughters of non-marital filiation)."
+    },
+    "subsidio3": {
+        "name": "Senior Citizen Transportation Fare Reduction",
+        "description": "All persons 65 years of age or older in the country have access to a 50% reduction in public transportation fares, that is, a reduction that will allow them to pay half the fare. This benefit may be used by senior citizens on more than 31 thousand buses throughout the country, including all urban buses, the Valparaíso Metro (Merval), trolley buses in Valparaíso, Biotren in the Biobío region, subsidized boats in the south of the country and rural buses. Particularly in Santiago, with this discount, senior citizens will pay $350 when using the integrated public transportation system (buses, Metro and Metrotren), regardless of the schedule or the number of combinations made. If you are a senior citizen you will be able to make use of this benefit in any region, regardless of your place of residence.",
+        "requisito1": "Must have a Bip! Adulto Mayor card, for personal and non-transferable use.",
+        "requisito2": "If you are between 65 and 74 years old, you can request your Bip! Adulto Mayor card at www.tarjetabip.cl with your ClaveÚnica. The card costs $1,550 and if you want it to be sent to your home address, the delivery costs $1,529. The card can also be requested by a proxy accredited with the Instituto de Previsión Social (IPS), through the same procedure that is used to collect the pension.",
+        "requisito3": "Si actualmente tienes la Tarjeta Adulo Mayor de Metro de Santiago (TAM), al inscribirte para recibir la Bip! Adulto Mayor, la tarjeta TAM perderá automáticamente su vigencia."
+    },
+    "subsidio4": {
+        "name": "Golden Wedding Anniversary Bonus",
+        "description": "It is an economic benefit granted to couples who have been married for 50 years and meet the requirements established by law. The current value of the bonus is $425,360 and has the following characteristics it is given only once in equal parts: $212,680 for each spouse alive, It must be requested jointly by both spouses, Once the marriage reaches its 50th anniversary, there is a period of one year to carry out the procedure.",
+        "requisito1": "The spouses must not be separated or divorced (termination of marriage for any legal cause).",
+        "requisito2": "Must be in the Social Household Registry (RSH) and, according to their qualification, belong to the most vulnerable 80% of the population.",
+        "requisito3": "Must live in the same household or prove residence in a long-stay facility for the elderly (one or both), recognized by the corresponding authority.",
+        "requisito4": "Must have proof of residence in the national territory for a period of four years, within the last five years immediately preceding the date of filing the application.",
+        "requisito5": "If, having completed 50 years of marriage, a spouse dies after that date, the surviving spouse is eligible for his/her share of the bonus.",
+        "requisito6": "If, having filed the application and verified compliance with the requirements, a spouse dies during the processing of the benefit, once the corresponding amount is granted, he/she will become part of the inheritance."
+    },
+    "subsidio5": {
+        "name": "Child Bonus",
+        "description": "This is a benefit that increases the amount of the woman's pension through the delivery of a bonus for each child born alive or adopted. This bonus is not paid at the time of birth, but together with her pension. The bonus is fixed and begins to generate returns from the date of birth of the child, and is equivalent to 10% of 18 minimum monthly incomes. This benefit is calculated as follows If the child was born before July 1, 2009, the minimum income in force in July 2009 ($165,000) will be applied. If the child was born after July 1, 2009, the minimum income will correspond to the amount in force during the month of the birth.",
+        "requisito1": "Must be a mother and having reached 65 years of age.",
+        "requisito2": "Must have a valid identity card. If the procedure is carried out by an attorney-in-fact, you will need a power of attorney.",
+        "requisito3": "Must have resided in Chilean territory for a period of 20 years (continuous or discontinuous), counted from your 20th birthday. Also, you must have resided in Chile for at least four of the last five years prior to the application for the bonus.",
+        "requisito4": "Must be affiliated to an AFP and have obtained your pension since July 1, 2009.",
+        "requisito5": "Must have received the Universal Guaranteed Pension (PGU) (which replaced the Basic Solidarity Old Age Pension).",
+        "requisito6": "If you are not affiliated to a pension system, you must receive a Survivor's Pension (with Solidarity Old Age Pension Contribution) granted by an AFP, insurance company or the Social Security Institute (IPS), as of July 1, 2009."
+    },
+    "subsidio6": {
+        "name": "Free Access to Parks for Seniors",
+        "description": "Senior citizens have free access to the parks, national reserves and natural monuments that make up the National System of State Wildlife Protected Areas (SNASPE), which is administered by the National Forestry Corporation (CONAF).",
+        "requisito1": "Must be 60 years of age or older.",
+        "requisito2": "At the entrance of the park, reserve or monument you must show your identity card and you will be able to enter free of charge.",
+        "requisito3": "You can review the reserves, parks and monuments that make up the System on CONAF's website."
+    }
+}

@@ -51,5 +51,176 @@
         "requisito2": "At the entrance of the park, reserve or monument you must show your identity card and you will be able to enter free of charge.",
         "requisito3": "You can review the reserves, parks and monuments that make up the System on CONAF's website."
     },
-    "pensiones": ""
+    "pensiones": "Pensions for citizens",
+    "pension1": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": ""
+    },
+    "pension2": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": ""
+    },
+    "pension3": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": "",
+        "requisito8": ""
+    },
+    "pension4": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": "",
+        "requisito8": "",
+        "requisito9": ""
+    },
+    "pension5": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": "",
+        "requisito8": "",
+        "requisito9": ""
+    },
+    "pension6": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": "",
+        "requisito8": "",
+        "requisito9": "",
+        "requisito10": ""
+    },
+    "cursos": "High School Education Courses",
+    "curso1":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": ""
+    },
+    "curso2":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": ""
+    },
+    "curso3":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": ""
+    },
+    "curso4":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": ""
+    },
+    "curso5":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": ""
+    },
+    "curso6":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": ""
+    },
+    "curso7":{
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": ""
+    },
+    "beneftrabaj": "Worker Benefits",
+    "beneficio1": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": ""
+    },
+    "beneficio2": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": ""
+    },
+    "beneficio3": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": "",
+        "requisito8": ""
+    },
+    "beneficio4": {
+        "name": "",
+        "description": "",
+        "requisito1": "",
+        "requisito2": "",
+        "requisito3": "",
+        "requisito4": "",
+        "requisito5": "",
+        "requisito6": "",
+        "requisito7": "",
+        "requisito8": "",
+        "requisito9": ""
+    }
 }

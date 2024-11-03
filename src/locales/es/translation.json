@@ -51,11 +51,177 @@
         "requisito2": "Al ingreso del parque, reserva o monumento debes mostrar tu cédula de identidad y podrás entrar de manera gratuita.",
         "requisito3": "Puedes revisar las reservas, parques y monumentos que integran el Sistema en el sitio web de la CONAF."
     },
-    "pensiones": "",
-    "pension1": {},
-    "pension2": {},
-    "pension3": {},
-    "pension4": {},
-    "pension5": {},
-    "pension6": {}
+    "pensiones": "Pensiones para el ciudadano",
+    "pension1": {
+        "name": "Pensión Garantizada Universal",
+        "description": "La Pensión Garantizada Universal (PGU) es un beneficio que reemplazó las pensiones del pilar solidario de vejez (tanto la Pensión Básica Solidaria-PBS como el Aporte Previsional Solidario-APS). Desde febrero del 2024, el monto de la PGU es de $214.296 pesos mensuales*. Este monto se suma a la pensión autofinanciada con los ahorros previsionales (AFP). Desde febrero de 2022, las personas beneficiarias de una pensión del Pilar Solidario reciben automáticamente la PGU (exceptuando algunos casos, detallados más abajo). Desde agosto del mismo año, la PGU beneficia a todas las personas mayores de 65 años que pertenezcan al 90% más vulnerable**. El beneficio se entrega independientemente de que las personas mayores ya se hayan pensionado o sigan trabajando. Para recibir la PGU, tu pensión autofinanciada debe ser inferior a $1.158.355 mensuales. En caso de que tu pensión autofinanciada sea superior a $729.764, recibirás una fracción del monto total de la PGU (puedes revisar el detalle de estos montos más abajo). Si aún no recibes el beneficio y cumples con todos los requisitos debes solicitarlo.",
+        "requisito1": "Tener 65 años o más.",
+        "requisito2": "No integrar un hogar del 10% más rico de la población mayor de 65 años.",
+        "requisito3": "Tener residencia en Chile por al menos 20 años (continuos o discontinuos) desde los 20 años de la persona que solicita el beneficio. Además debe haber residido en Chile al menos cuatro de los cinco últimos años previo a la solicitud.",
+        "requisito4": "No tener derecho a pensión o contar con una pensión base menor a la pensión superior ($1.158.355).",
+        "requisito5": "No estar afiliado en DIPRECA o CAPREDENA."
+    },
+    "pension2": {
+        "name": "Pensión Básica Solidaria de Invalidez (PBSI)",
+        "description": "Es un beneficio económico mensual para personas que puedan ser declaradas con invalidez*, que no tengan derecho a una pensión en algún régimen previsional y que pertenecen al 80% más vulnerable de la población. El monto de este beneficio es de máximo $214.296. Este valor se reajustará todos los febrero desde 2023.",
+        "requisito1": "Debes tener entre 18 y 64 años al momento de la solicitud.",
+        "requisito2": "No debes recibir pensión en ningún régimen previsional, ya sea en calidad de titular o como beneficiario de una pensión de sobrevivencia.",
+        "requisito3": "Debes ser declarado o declarada con invalidez por las Comisiones Médicas correspondientes, definidas en el Decreto Ley N° 3.500.",
+        "requisito4": "Que integren un grupo familiar perteneciente al 80% más vulnerable de la población según el Registro Social de Hogares (RSH).",
+        "requisito5": "Haber vivido en Chile por, al menos, cinco de los últimos seis años anteriores a la fecha en que ingresas tu solicitud. Estos cinco años pueden ser continuos o discontinuos.",
+        "requisito6": "No debes ausentarte del país por un período mayor a 90 días durante el año calendario (de enero a diciembre).",
+        "requisito7": "Tener tu cédula de identidad vigente."
+    },
+    "pension3": {
+        "name": "Aporte Previsional Solidario de Invalidez (APSI)",
+        "description": "Es un beneficio económico mensual para las personas que reciben pensiones de invalidez* de bajo monto, es decir, para personas que reciben pensiones menores a la Pensión Garantizada Universal (PGU) $214.296. Estas pensiones son destinadas a personas que no puede llevar a cabo un trabajo, ya sea por condiciones físicas o por alguna discapacidad intelectual. Esta condición la declaran las Comisiones Médicas correspondientes, definidas en el Decreto Ley N° 3.500.",
+        "requisito1": "Tener entre 18 y 64 años al momento de la solicitud.",
+        "requisito2": "Recibir una pensión de invalidez mensual o una pensión base inferior al monto de la Pensión Básica Solidaria.",
+        "requisito3": "Haber sido declarado o declarada con invalidez por las Comisiones Médicas correspondientes, definidas en el Decreto Ley N° 3.500.",
+        "requisito4": "Que integren un grupo familiar perteneciente al 80% más pobre de la población según el Registro Social de Hogares (RSH).",
+        "requisito5": "Haber vivido en Chile por al menos cinco de los últimos seis años anteriores a la fecha en que ingresas tu solicitud. Estos 5 años pueden ser continuos o discontinuos.",
+        "requisito6": "No debes cotizar en la Dirección de Previsión de Carabineros de Chile (DIPRECA), ni en la Caja de Previsión de la Defensa Nacional (CAPREDENA).",
+        "requisito7": "No debes ausentarte del país por un período mayor a 90 días durante el año calendario (de enero a diciembre).",
+        "requisito8": "Tener tu cédula de identidad vigente."
+    },
+    "pension4": {
+        "name": "Aguinaldo por Fiestas Patrias para Pensionados/as",
+        "description": "Se trata de un beneficio que se paga en septiembre de cada año, a todas las personas beneficiarias de pensiones que cumplan con los requisitos establecidos. El monto del aguinaldo el 2024 es de $24.261. A eso se le suman $12.446 por cada carga familiar que esté acreditada al 31 de agosto de 2024",
+        "requisito1": "Pensionados/as de las ex-cajas de previsión.",
+        "requisito2": "Pensionados/as de las leyes de Exonerados/as Políticos/as, Ley 19.234.",
+        "requisito3": "Pensionados/as de la Ley de Reparación 19.123 (Ley Rettig).",
+        "requisito4": "Pensionados/as de la Ley de Reparación 19.992 (Ley Valech).",
+        "requisito5": "Pensionados/as de Accidentes del Trabajo, Ley 16.744, del Instituto de Seguridad Laboral.",
+        "requisito6": "Beneficiarios/as de la Pensión Garantizada Universal.",
+        "requisito7": "Beneficiarios/as de la Pensión Básica Solidaria de Invalidez.",
+        "requisito8": "Personas que reciben Subsidio por Discapacidad Mental, Art. 35 de la Ley N° 20.255.",
+        "requisito9": "Beneficiarios/as de Indemnizaciones del Carbón, Ley N° 19.129."
+    },
+    "pension5": {
+        "name": "Aguinaldo de Navidad para Pensionados/as",
+        "description": "Se trata de un beneficio que se paga en diciembre de cada año a las personas pensionadas al 30 de noviembre y que cumplan los requisitos. La entrega de este aguinaldo se hace junto al pago de la pensión de diciembre. El monto del aguinaldo este 2023 es de $26.734, y se puede incrementar en $15.104 por cada carga familiar.",
+        "requisito1": "Beneficiarios/as de la Pensión Garantizada Universal o de la Pensión Básica Solidaria de Invalidez (PBSI)",
+        "requisito2": "Pensionados/as del Instituto de Seguridad Laboral (ISL).",
+        "requisito3": "Pensionados/as de las ex Cajas de Previsión y ex Servicio de Seguro Social (INP, actualmente IPS).",
+        "requisito4": "Pensionados/as de Caja de Previsión de Dipreca y Capredena.",
+        "requisito5": "Pensionados/as de las Mutualidades de Empleadores de la Ley Nº 16.744.",
+        "requisito6": "Pensionados/as de reparación: Rettig y Valech.",
+        "requisito7": "Pensionados/as de AFP o compañías de seguro con garantía estatal o Aporte Previsional Solidario (de Vejez o de Invalidez).",
+        "requisito8": "Beneficiarios/as de la indemnización compensatoria especial para la industria del carbón.",
+        "requisito9": "Beneficiarios/as del Subsidio por Discapacidad Mental."
+    },
+    "pension6": {
+        "name": "Pensión de Sobrevivencia del Sistema de Pensiones (AFP)",
+        "description": "Permite a personas beneficiarias de imponentes y pensionados/as que fallecieron y estaban afiliados/as al sistema de Administradoras de Fondos de Pensiones (AFP) solicitar la pensión de sobrevivencia.",
+        "requisito1": "50% para la o el cónyuge con hijos/as comunes.",
+        "requisito2": "60% para la o el cónyuge si no existen hijos/as en común.'",
+        "requisito3": "60% para la o el cónyuge sin hijos/as en común o hijos/as solamente de la o el causante.",
+        "requisito4": "50% para la o el conviviente civil con hijos/as en común.",
+        "requisito5": "15% para la o el conviviente civil si es que existen hijos/as de la o el causante y no hay hijos/as en común.",
+        "requisito6": "36% para la madre y/o padre de hijos/as no matrimoniales que no tienen derecho a pensión.",
+        "requisito7": "30% para la madre y/o padre de hijos/as que tienen derecho a pensión.",
+        "requisito8": "15% para hijos/as que cumplan los requisitos (ver campo 'Beneficiarios/as').",
+        "requisito9": "11% para hijos/as con discapacidad parcial que cumplan 24 años.",
+        "requisito10": "50% para las madres y padres de la o el causante que sean beneficiarios/as de asignación familiar."
+    },
+    "cursos": "Cursos de Educación Media",
+    "curso1":{
+        "name": "Bono Logro Escolar",
+        "description": "Es un beneficio al cual no se postula y que forma parte del Ingreso Ético Familiar (IEF). Está destinado a estudiantes menores de 24 años, de entre quinto básico y cuarto medio, que pertenezcan al 30% de mejor rendimiento académico de su promoción, y cuyas familias pertenezcan al 30% más vulnerable de la población chilena.",
+        "requisito1": "Que sus familias sean beneficiarias del subsistema Seguridades y Oportunidades del Ingreso Ético Familiar (IEF).",
+        "requisito2": "Estar dentro del 30% más vulnerable de la población según al Registro Social de Hogares (RSH)., al 31 de marzo del año inmediatamente anterior a aquel en que se pague el Bono. Atención: Si tu cartola hogar indica que estás dentro del 40%, no implica necesariamente que estés dentro del 30% más vulnerable.",
+        "requisito3": "Cursar entre 5º básico y 4º medio.",
+        "requisito4": "Estar en el 30% de mejor rendimiento académico de su promoción o grupo de egreso durante el año anterior al que se postula.",
+        "requisito5": "Haber asistido a establecimientos de enseñanza básica o media reconocidos por el Ministerio de Educación (Mineduc)."
+    },
+    "curso2":{
+        "name": "Beca Práctica Técnico Profesional",
+        "description": "La Beca Práctica Técnico Profesional (BPTP) es un beneficio de 65 mil pesos de libre disposición o uso, pagados en una cuota, a estudiantes o egresados/as de enseñanza media técnico-profesional, que estén realizando o vayan a iniciar su práctica profesional dentro del año en curso.",
+        "requisito1": "Ser estudiante o egresado/a de un establecimiento educacional de Enseñanza Media Técnico Profesional.",
+        "requisito2": "Debes realizar o iniciar la práctica profesional durante el año en curso.",
+        "requisito3": "Puedes postular si iniciaste tu práctica el año anterior y el proceso continúa durante el año en curso.",
+        "requisito4": "Presentar un informe de práctica del establecimiento educacional (completar anexo Nº 10).",
+        "requisito5": "Importante: quienes postulen no deben haber sido beneficiarios/as de la bonificación en años anteriores."
+    },
+    "curso3":{
+        "name": "Beca de Integración Territorial - Educación Media",
+        "description": "Es un aporte económico destinado a cubrir parte de los gastos de mantención y transporte para estudiantes de educación media de las provincias de Coyhaique, Aysén, General Carrera, Capitán Prat, Isla de Pascua, Palena, Última Esperanza, Magallanes, Tierra del Fuego, Antártica Chilena y en la comuna de Juan Fernández. El monto del beneficio corresponde a 18,7 UTM anuales, las que se pagan en 10 cuotas mensuales.",
+        "requisito1": "Tener domicilio en la Región de Aysén o de Magallanes, en las provincias de Palena, o en las comunas de Isla de Pascua o Juan Fernández",
+        "requisito2": "Necesitas trasladarte y vivir fuera de las localidades en las que resides para poder realizar tus estudios.",
+        "requisito3": "Debes estudiar en establecimientos educacionales reconocidos por el Estado que no tengan oferta en tu localidad de residencia.",
+        "requisito4": "Debes estar dentro del 80% más vulnerable según el Registro Social de Hogares (RSH) .",
+        "requisito5": "Necesitas tener un promedio mínimo de notas de 5,0 (Se exime de este requisito a estudiantes de Educación Especial)",
+        "requisito6": "Si estás en el Registro Nacional de Discapacidad (RND) tendrás acceso preferente"
+    },
+    "curso4":{
+        "name": "Beca Polimetales - Educación Media",
+        "description": "Es un aporte económico de libre disposición dirigido a estudiantes afectados por la contaminación de las zonas con presencia de polimetales de la comuna de Arica, que se encuentren estudiando entre primero y cuarto medio en establecimientos educacionales reconocidos por el Estado. El beneficio corresponde a 6,2 UTM anuales y se paga en hasta 10 cuotas mensuales. ",
+        "requisito1": "Estar matriculado en algún establecimiento educacional de educación media reconocido por el Estado.",
+        "requisito2": "Acreditar la condición de afectado por la contaminación de polimetales de la comuna de Arica.",
+        "requisito3": "Certificado que acredita la condición de afectado por la contaminación de polimetales.",
+        "requisito4": "Certificado de matrícula o de alumno regular que indique su curso en un establecimiento reconocido por el Estado.",
+        "requisito5": "En caso de renovación, necesitarás también el certificado de notas que acredite la aprobación del año académico anterior."
+    },
+    "curso5":{
+        "name": "Programa Residencia Familiar Estudiantil (PRFE) – Educación media",
+        "description": "Es un beneficio que entrega alojamiento en hogares de familias tutoras a estudiantes que deben trasladarse de su comuna de residencia para continuar sus estudios de educación media. También consiste en apoyo de alimentación y en el ámbito pedagógico para facilitar la continuación y la finalización de los estudios de educación media. ",
+        "requisito1": "Tienes que residir en comunas que tengan al menos un 50% de ruralidad.",
+        "requisito2": "Debes ser estudiante de algún establecimiento particular subvencionado de Enseñanza Media.",
+        "requisito3": "Tienes que estar inscrito/a en el Registro Social de Hogares (RSH)"
+    },
+    "curso6":{
+        "name": "Programa Residencia Familiar Estudiantil (PRFE) – Educación superior",
+        "description": "Es un beneficio que entrega alojamiento en hogares de familias tutoras a estudiantes que deben trasladarse de su comuna de residencia para continuar sus estudios superiores. También consiste en apoyo de alimentación y en el ámbito pedagógico para facilitar la continuación y la finalización de los estudios de educación superior.",
+        "requisito1": "Tienes que residir en comunas que tengan al menos un 50% de ruralidad.",
+        "requisito2": "Debes ser estudiante en alguna Institución de Educación Superior reconocida por el Estado.",
+        "requisito3": "Tienes que estar inscrito/a en el Registro Social de Hogares (RSH). "
+    },
+    "curso7":{
+        "name": "Beca Residencia Insular (BRINS)",
+        "description": "Es un aporte económico destinado a cubrir parte de los gastos de arriendo para estudiantes que residen en Isla Juan Fernández e Isla de Pascua y que estudian en instituciones de educación superior reconocidas por el Estado. El monto del beneficio corresponde a $981.580 y se paga hasta en 10 cuotas al año.",
+        "requisito1": "Tienes que residir en la Isla Juan Fernández o en la Isla de Pascua.",
+        "requisito2": "Debes estar matriculado/a en una institución de Educación Superior reconocidas por el Estado.",
+        "requisito3": "Tienes que estar inscrito/a en el Registro Social de Hogares (RSH)."
+    },
+    "beneftrabaj": "Beneficios para el Trabajador",
+    "beneficio1": {
+        "name": "Subsidio al sueldo mínimo para Mipymes",
+        "description": "Este subsidio consiste en un pago que se entrega mensualmente a micro, pequeñas y medianas empresas, cooperativas, personas jurídicas sin fines de lucro (como fundaciones) y comunidades. Este pago permite cumplir con el nuevo sueldo mínimo establecido y no está afecto a impuesto alguno.",
+        "requisito1": "Tengan inicio de actividad en primera categoría antes del 8 de mayo de 2023, como persona natural o jurídica, incluidas las cooperativas. Las empresas que inicien actividades posterior a esta fecha pueden acceder desde septiembre de 2023, si cumplen los requisitos.",
+        "requisito2": "Tengan uno o más trabajadores/as con sueldo mínimo, o con ingreso imponible entre 411.000 y 500.000, de acuerdo al período contemplado en la Ley.",
+        "requisito3": "Que las ventas y servicios del giro sean superiores a 0,01 Unidades de Fomento (UF) e iguales o inferiores a 100.000 UF en 2022.",
+        "requisito4": "Sean personas jurídicas sin fines de lucro y comunidades constituidas antes del 8 de mayo de 2023."
+    },
+    "beneficio2": {
+        "name": "Subsidio Protege",
+        "description": "El Subsidio Protege es un beneficio destinado a madres que trabajen de manera dependiente o independiente, que no tengan garantizado el derecho a sala cuna por parte de su empleador/a. Consiste en un aporte mensual de $200.000 por cada niño o niña de hasta cuatro años, el que se entregará directamente a las madres trabajadoras para que lo destinen al cuidado de las niñas y niños. También podrán acceder al beneficio los padres trabajadores, dependientes o independientes, que tengan el cuidado personal de manera exclusiva o que se les haya otorgado el cuidado personal de un niño o niña menor de cinco años. El beneficio tendrá una duración de tres meses.",
+        "requisito1": "Estar trabajando, de manera dependiente o independiente, en modalidad presencial, teletrabajo, a distancia o mixta.",
+        "requisito2": "Si eres trabajador/a dependiente debes tener cuatro cotizaciones (Salud y AFP) pagadas en los últimos doce meses previos a la postulación. Una de estas cuatro cotizaciones debe ser del mes previo a la postulación. Por ejemplo, si postulas en enero 2022 debes tener pagada la cotización de la remuneración de diciembre 2021 y, al menos, otras tres cotizaciones entre enero 2021 y noviembre 2021.",
+        "requisito3": "Si eres trabajador/a independiente debes haber cotizado como independiente en la última operación renta (2022) con aporte de cotizaciones Total o Parcial. Otra alternativa es que cuentes con cuatro cotizaciones (salud y AFP) en los últimos doce meses. Una de estas cuatro cotizaciones debe ser del mes previo a la postulación."
+    },
+    "beneficio3": {
+        "name": "Bono al Trabajo de la Mujer",
+        "description": "Es un aporte monetario que se entrega a mujeres trabajadoras entre 25 y 59 años, que pertenecen al 40% de las familias de menores ingresos de la población. El monto del bono se calcula, caso a caso, en base a las rentas brutas del año en que postulan al beneficio. El beneficio se entrega en el mes de agosto del año siguiente a la postulación, a través de un pago anual. Sin embargo, la beneficiaria puede acceder a adelantos mensuales equivalentes al 75% del monto total del bono o al 50% en caso de cursar el cuarto año de solicitud del beneficio. La trabajadora puede recibir este beneficio durante cuatro años continuos. Si quieres encontrar más información, te recomendamos visitar el sitio web de Sence.",
+        "requisito1": "Ser mujer y estar trabajando de forma dependiente o independiente.",
+        "requisito2": "Tener entre 25 años y 59 años con 11 meses de edad.",
+        "requisito3": "Pertenecer al 40% de la población más vulnerable del país, según el Registro Social de Hogares (RSH).",
+        "requisito4": "No debes trabajar en una institución del Estado o en una empresa con aporte estatal superior al 50%.",
+        "requisito5": "Si quieres recibir el Pago anual, debes percibir una renta bruta anual inferior a $7.278.446.",
+        "requisito6": "Si quieres recibir el Pago mensual, debes percibir una renta bruta mensual inferior a $606.537",
+        "requisito7": "Adicionalmente, si eres trabajadora independiente, deberás acreditar rentas para el año calendario en que solicitas el bono y deberás estar al día en el pago de tus cotizaciones previsionales y de salud.",
+        "requisito8": "No debes ser beneficiaria del Ingreso Mínimo Garantizado para el período de renta procesado."
+    },
+    "beneficio4": {
+        "name": "Subsidio al Empleo Joven",
+        "description": "Es un aporte monetario que busca mejorar el sueldo de trabajadoras y trabajadores jóvenes, que pertenecen al 40% más vulnerable de la población, e incentivar la contratación de personas jóvenes por parte de las y los empleadores. El monto del subsidio* (aporte monetario) se calcula caso a caso, a partir de las rentas brutas del año en que postulan al beneficio.",
+        "requisito1": "Tener un trabajo formal vigente o ser trabajador/a independiente.",
+        "requisito2": "Debes tener entre 18 y 24 años.",
+        "requisito3": "Certificar que perteneces al 40% más vulnerable de la población, según el Registro Social de Hogares",
+        "requisito4": "Si eres mayor de 21 años , contar con Licencia de Enseñanza Media",
+        "requisito5": "No debes trabajar en una institución del Estado o en una empresa con aporte estatal superior al 50%.",
+        "requisito6": "Trabajador/a dependiente: debes acreditar una renta bruta anual inferior a $7.278.446. Si deseas optar a la modalidad de subsidio mensual debes acreditar una renta bruta inferior a $606.537.",
+        "requisito7": "Trabajador/a independiente: debes acreditar una renta bruta anual inferior a $7.278.446.",
+        "requisito8": "Adicionalmente, si eres trabajador/a independiente debes acreditar rentas para el año calendario en que solicitas el subsidio y estar al día en el pago de tus cotizaciones previsionales y de salud.",
+        "requisito9": "No debes ser beneficiario(a) del Ingreso Mínimo Garantizado para el período de renta procesado."
+    }
   }

@@ -5,7 +5,7 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_601373010_378088.jpg'); /* Cambia esto a la URL de tu imagen de fondo */
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_601373010_378088.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff;

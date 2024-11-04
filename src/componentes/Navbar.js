@@ -67,6 +67,15 @@ function Navbar() {
                 Pensiones
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink 
+                to="/Login" 
+                className={({ isActive }) => `nav-link ${isActive ? 'active-link' : ''} d-flex align-items-center`} 
+              >
+                <FaMoneyBill className="me-2" /> 
+                Login
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>

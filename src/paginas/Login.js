@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function Login({ setIsAuthenticated }) {
   const [username, setUsername] = useState('');
@@ -10,6 +11,7 @@ function Login({ setIsAuthenticated }) {
   const [error, setError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
 
   // Función para manejar el inicio de sesión
   const handleLogin = async (e) => {
@@ -19,7 +21,7 @@ function Login({ setIsAuthenticated }) {
       setIsAuthenticated(true); // Indicar que el usuario está autenticado
       navigate('/Prueba');
     } catch (err) {
-      setError('Error de inicio de sesión. Verifique sus credenciales.');
+      setError(t('sesionerror'));
     }
   };
 
@@ -28,53 +30,53 @@ function Login({ setIsAuthenticated }) {
     e.preventDefault();
     try {
       await axios.post('http://localhost:3001/register', { username: registerUsername, password: registerPassword });
-      setSuccessMessage('Registro exitoso. Ahora puedes iniciar sesión.');
+      setSuccessMessage(t('registrosuccess'));
       setRegisterUsername('');
       setRegisterPassword('');
       setError(null);
     } catch (err) {
-      setError('Error al registrar el usuario. Verifique que el usuario no exista ya.');
+      setError(t('registroerror'));
       setSuccessMessage(null); 
     }
   };
 
   return (
     <div className="login-container">
-      <h2>Iniciar Sesión</h2>
+      <h2>{t('sesionstart')}</h2>
       {error && <p className="error">{error}</p>}
       <form onSubmit={handleLogin}>
         <input
           type="text"
-          placeholder="Usuario"
+          placeholder={t('accountfields.username')}
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
         <input
           type="password"
-          placeholder="Contraseña"
+          placeholder={t('accountfields.password')}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Iniciar Sesión</button>
+        <button type="submit">{t('sesionstart')}</button>
       </form>
 
-      <h2>Registro de Usuario</h2>
+      <h2>{t('userregistration')}</h2>
       {successMessage && <p className="success">{successMessage}</p>}
       {error && <p className="error">{error}</p>}
       <form onSubmit={handleRegister}>
         <input
           type="text"
-          placeholder="Nuevo Usuario"
+          placeholder={t('accountfields.newusername')}
           value={registerUsername}
           onChange={(e) => setRegisterUsername(e.target.value)}
         />
         <input
           type="password"
-          placeholder="Nueva Contraseña"
+          placeholder={t('accountfields.newpassword')}
           value={registerPassword}
           onChange={(e) => setRegisterPassword(e.target.value)}
         />
-        <button type="submit">Registrarse</button>
+        <button type="submit">{t('registro')}</button>
       </form>
     </div>
   );

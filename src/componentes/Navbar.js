@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaHome, FaUserShield, FaGraduationCap, FaBriefcase, FaMoneyBill } from 'react-icons/fa';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Navbar() {
   return (

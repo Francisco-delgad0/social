@@ -223,5 +223,17 @@
         "requisito7": "Trabajador/a independiente: debes acreditar una renta bruta anual inferior a $7.278.446.",
         "requisito8": "Adicionalmente, si eres trabajador/a independiente debes acreditar rentas para el año calendario en que solicitas el subsidio y estar al día en el pago de tus cotizaciones previsionales y de salud.",
         "requisito9": "No debes ser beneficiario(a) del Ingreso Mínimo Garantizado para el período de renta procesado."
-    }
+    },
+    "sesionerror": "Error de inicio de sesión. Verifique sus credenciales.",
+    "registrosuccess": "Registro exitoso. Ahora puedes iniciar sesión.",
+    "registroerror": "Error al registrar el usuario. Verifique que el usuario no exista ya.",
+    "accountfields": {
+        "username": "Usuario",
+        "password": "Contraseña",
+        "newusername": "Nuevo Usuario",
+        "newpassword": "Nueva Contraseña"
+    },
+    "sesionstart": "Iniciar Sesión",
+    "registro": "Registrarse",
+    "userregistration": "Registro de Usuario"
   }

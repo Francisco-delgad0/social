@@ -40,46 +40,63 @@ function Login({ setIsAuthenticated }) {
     }
   };
 
-  return (
-    <div className="login-container">
+return (
+  <div className="auth-container">
+    <div className="auth-section login-section">
       <h2>{t('sesionstart')}</h2>
-      {error && <p className="error">{error}</p>}
-      <form onSubmit={handleLogin}>
-        <input
-          type="text"
-          placeholder={t('accountfields.username')}
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder={t('accountfields.password')}
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button type="submit">{t('sesionstart')}</button>
-      </form>
-
-      <h2>{t('userregistration')}</h2>
-      {successMessage && <p className="success">{successMessage}</p>}
-      {error && <p className="error">{error}</p>}
-      <form onSubmit={handleRegister}>
-        <input
-          type="text"
-          placeholder={t('accountfields.newusername')}
-          value={registerUsername}
-          onChange={(e) => setRegisterUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder={t('accountfields.newpassword')}
-          value={registerPassword}
-          onChange={(e) => setRegisterPassword(e.target.value)}
-        />
-        <button type="submit">{t('registro')}</button>
+      {error && <p className="auth-error">{error}</p>}
+      <form onSubmit={handleLogin} className="auth-form">
+        <div className="input-group">
+          <input
+            type="text"
+            placeholder={t('accountfields.username')}
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+        </div>
+        <div className="input-group">
+          <input
+            type="password"
+            placeholder={t('accountfields.password')}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
+        <button type="submit" className="auth-button">
+          {t('sesionstart')}
+        </button>
       </form>
     </div>
-  );
+
+    <div className="auth-section register-section">
+      <h2>{t('userregistration')}</h2>
+      {successMessage && <p className="auth-success">{successMessage}</p>}
+      {error && <p className="auth-error">{error}</p>}
+      <form onSubmit={handleRegister} className="auth-form">
+        <div className="input-group">
+          <input
+            type="text"
+            placeholder={t('accountfields.newusername')}
+            value={registerUsername}
+            onChange={(e) => setRegisterUsername(e.target.value)}
+          />
+        </div>
+        <div className="input-group">
+          <input
+            type="password"
+            placeholder={t('accountfields.newpassword')}
+            value={registerPassword}
+            onChange={(e) => setRegisterPassword(e.target.value)}
+          />
+        </div>
+        <button type="submit" className="auth-button">
+          {t('registro')}
+        </button>
+      </form>
+    </div>
+  </div>
+);
+
 }
 
 export default Login;

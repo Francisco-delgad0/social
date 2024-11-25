@@ -1,25 +1,28 @@
 import React from 'react';
 import './homepage.css';
+import { useTranslation } from 'react-i18next';
 
 const Prueba = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="homepage-container">
       <header className="header-content">
-        <h1>¿Listo para postular?</h1>
-        <p>Sigue estos pasos para postularte a nuestros programas de protección social:</p>
+        <h1>{t("postular")}</h1>
+        <p>{t("inst")}</p>
         
         <ol className="steps-list">
-          <li>Visita nuestra página web y selecciona el programa que más te interese.</li>
-          <li>Completa el formulario de postulación en línea.</li>
-          <li>Adjunta los documentos requeridos (identificación, comprobante de residencia, etc.).</li>
-          <li>Envía tu solicitud y espera la confirmación de tu postulación.</li>
+          <li>{t("pasospostulacion.text1")}</li>
+          <li>{t("pasospostulacion.text2")}</li>
+          <li>{t("pasospostulacion.text3")}</li>
+          <li>{t("pasospostulacion.text4")}</li>
         </ol>
 
         <button className="cta-button" onClick={() => alert("Funcionalidad aún no implementada")}>
-          Postular
+          {t("botonpostular")}
         </button>
 
-        <p className="reminder-message">Recuerda tener tu carnet a mano para completar tu postulación.</p>
+        <p className="reminder-message">{t("idreminder")}</p>
       </header>
     </div>
   );

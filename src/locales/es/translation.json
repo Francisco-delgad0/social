@@ -235,5 +235,15 @@
     },
     "sesionstart": "Iniciar Sesión",
     "registro": "Registrarse",
-    "userregistration": "Registro de Usuario"
+    "userregistration": "Registro de Usuario",
+    "postular": "¿Listo para postular?",
+    "inst": "Sigue estos pasos para postularte a nuestros programas de protección social:",
+    "pasospostulacion":{
+        "text1":"Visita nuestra página web y selecciona el programa que más te interese.",
+        "text2":"Completa el formulario de postulación en línea.",
+        "text3":"Adjunta los documentos requeridos (identificación, comprobante de residencia, etc.).",
+        "text4":"Envía tu solicitud y espera la confirmación de tu postulación.."
+    },
+    "botonpostular":"Postular",
+    "idreminder":"Recuerda tener tu carnet a mano para completar tu postulación."
   }

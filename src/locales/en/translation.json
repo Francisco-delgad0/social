@@ -235,5 +235,15 @@
     },
     "sesionstart": "Log in",
     "registro": "Signup",
-    "userregistration": "Signup"
+    "userregistration": "Signup",
+    "postular": "Ready to apply?",
+    "inst": "Follow these steps to apply to the social protection programs:",
+    "pasospostulacion":{
+        "text1":"Visit our website and select the program you are most interested in.",
+        "text2":"Complete the online application form.",
+        "text3":"Attach the required documents (ID, proof of residence, etc.).",
+        "text4":"Submit your application and wait for confirmation of your application."
+    },
+    "botonpostular":"Apply",
+    "idreminder":"Remember to have your ID card on hand to complete your application."
 }

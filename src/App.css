@@ -1,9 +1,38 @@
 .adulto-mayor-bg {
-    background-color: #f8f9fa; 
-    padding: 20px; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  background-color: #e3f2fd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  margin-bottom: 20px;
 }
+
+
+.adulto-mayor-bg h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.col-12.col-sm-6.col-md-6 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+ul.list-group-flush {
+  padding-left: 20px;
+}
+
+
 
 .benficios-bg{
     background-color: #ffdef2; 
@@ -25,18 +54,8 @@
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
-    
-.card {
-    border-radius: 10px; 
-}
-    
-.card-title {
-    font-weight: bold;
-}
-    
-.card-text {
-    color: #333; 
-}
+
+
 .header-text {
     text-align: center;
     margin: 20px 0; 
@@ -45,10 +64,6 @@
     background-color: #b1d5f8; 
     min-height: 100vh; 
     padding-bottom: 50px;
-  }
-
-.footer {
-    margin-top: 20px; 
   }
 
 .auth-container {

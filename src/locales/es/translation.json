@@ -250,5 +250,9 @@
         "welcome": "Bienvenidos a SocialApp",
         "flavor": "Conéctate fácilmente con los programas de protección social que te ayudarán a mejorar tu calidad de vida y la de tu comunidad.",
         "button": "Explorar Programas"
-    }
+    },
+    "beneficios": "Beneficios para Adultos Mayores",
+    "subtitulo_adulto_mayor": "Encuentra subsidios y beneficios diseñados especialmente para ti.",
+    "footer_adulto_mayor": "Página creada para facilitar el acceso a beneficios de protección social."
+
   }

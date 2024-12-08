@@ -80,10 +80,11 @@ const AdultoMayor = () => {
     
       return (
         <div className="container adulto-mayor-bg mt-5">
-          <h1 className="text-center">{t('beneficios')}</h1>
-          <div className="row d-flex flex-wrap justify-content-center"> 
+          <h1 className="text-center titulo-adulto-mayor">{t('beneficios')}</h1>
+          <p className="text-center subtitulo-adulto-mayor">{t('subtitulo_adulto_mayor')}</p>
+          <div className="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
             {menuItems.map((item) => (
-              <div className="col-12 col-sm-6 col-md-6 mb-4 d-flex" key={item.id}> 
+              <div className="col" key={item.id}>
                 <Carta_Adulto_Mayor subsidio={item} />
               </div>
             ))}
@@ -91,5 +92,5 @@ const AdultoMayor = () => {
         </div>
       );
     };
-
-export default AdultoMayor;
+    
+    export default AdultoMayor;

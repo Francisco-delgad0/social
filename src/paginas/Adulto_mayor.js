@@ -5,12 +5,6 @@ import '../App.css'
 
 const AdultoMayor = () => {
   const { t, i18n } = useTranslation();
-
-  const toggleLanguage = () => {
-      const newLanguage = i18n.language === 'es' ? 'en' : 'es';
-      i18n.changeLanguage(newLanguage);
-      localStorage.setItem('idioma', newLanguage)
-  };
     const menuItems = [
         {
           id: 1,
@@ -87,9 +81,6 @@ const AdultoMayor = () => {
       return (
         <div className="container adulto-mayor-bg mt-5">
           <h1 className="text-center">{t('beneficios')}</h1>
-          <button onClick={toggleLanguage} className="btn btn-secondary mb-3">
-            {i18n.language === 'es' ? 'Switch to English' : 'Cambiar a Español'}
-          </button>
           <div className="row d-flex flex-wrap justify-content-center"> 
             {menuItems.map((item) => (
               <div className="col-12 col-sm-6 col-md-6 mb-4 d-flex" key={item.id}> 

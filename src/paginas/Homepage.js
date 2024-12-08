@@ -1,13 +1,15 @@
 import React from 'react';
 import './homepage.css';
+import { useTranslation } from 'react-i18next';
 
 const Homepage = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div className="homepage-container">
       <header className="header-content">
-        <h1>Bienvenidos a SocialApp</h1>
-        <p>Conéctate fácilmente con los programas de protección social que te ayudarán a mejorar tu calidad de vida y la de tu comunidad.</p>
-        <button className="cta-button">Explorar Programas</button>
+        <h1>{t('homepage.welcome')}</h1>
+        <p>{t('homepage.flavor')}</p>
+        <button className="cta-button">{t('homepage.button')}</button>
       </header>
     </div>
   );

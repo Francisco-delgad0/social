@@ -1,10 +1,19 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaHome, FaUserShield, FaGraduationCap, FaBriefcase, FaMoneyBill } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Navbar() {
+  const {i18n} = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLanguage = i18n.language === 'es' ? 'en' : 'es';
+    i18n.changeLanguage(newLanguage);
+    localStorage.setItem('idioma', newLanguage);
+  }
+
   return (
     <nav className="navbar navbar-expand-lg bg-primary navbar-dark">
       <div className="container-fluid">
@@ -22,6 +31,12 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        <button 
+            onClick={toggleLanguage} 
+            className="btn btn-light ms-3"
+          >
+            {i18n.language === 'es' ? 'English' : 'Español'}
+          </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">

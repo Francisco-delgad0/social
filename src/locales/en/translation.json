@@ -245,5 +245,10 @@
         "text4":"Submit your application and wait for confirmation of your application."
     },
     "botonpostular":"Apply",
-    "idreminder":"Remember to have your ID card on hand to complete your application."
+    "idreminder":"Remember to have your ID card on hand to complete your application.",
+    "homepage": {
+        "welcome": "Welcome to SocialApp",
+        "flavor": "Easily connect with social protection programs that will help you improve your quality of life and that of your community.",
+        "button": "Explore available programs"
+    }
 }

@@ -91,17 +91,18 @@ const Educacion = () => {
       ];
     
       return (
-        <div className="container educacion-bg mt-5"> 
-            <h1 className="text-center">{t('cursos')}</h1>
-            <div className="row d-flex flex-wrap justify-content-center"> 
-                {cursos.map((curso) => (
-                    <div className="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center" key={curso.id}>
-                        <Carta_Educacion curso={curso} />
-                    </div>
-                ))}
-            </div>
+        <div className="container educacion-bg mt-5">
+          <h1 className="text-center">{t('cursos')}</h1>
+          <p className="text-center subtitulo-adulto-mayor">{t('subtitulo_adulto_mayor')}</p>
+          <div className="row d-flex flex-wrap justify-content-center">
+            {cursos.map((curso) => (
+              <div className="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center" key={curso.id}>
+                <Carta_Educacion curso={curso} />
+              </div>
+            ))}
+          </div>
         </div>
-    );
-};
+      );
+    };
 
 export default Educacion;

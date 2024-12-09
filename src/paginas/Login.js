@@ -13,19 +13,19 @@ function Login({ setIsAuthenticated }) {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
-  // Función para manejar el inicio de sesión
+  
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:3001/Login', { username, password });
-      setIsAuthenticated(true); // Indicar que el usuario está autenticado
+      setIsAuthenticated(true); 
       navigate('/Prueba');
     } catch (err) {
       setError(t('sesionerror'));
     }
   };
 
-  // Función para manejar el registro
+ 
   const handleRegister = async (e) => {
     e.preventDefault();
     try {

@@ -6,11 +6,12 @@ const mysql = require('mysql2');
 const cors = require('cors');
 
 const app = express();
-const port = 3001;
+const port = 3001; // Puerto para el registro y login
 
-app.use(express.json());
-app.use(cors());
+app.use(express.json());  // Asegúrate de que esta línea esté antes de las rutas
+app.use(cors());  // Permite solicitudes de otros dominios
 
+// Configuración de la conexión a la base de datos MySQL
 const db = mysql.createConnection({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
@@ -66,6 +67,7 @@ app.get('/protected', (req, res) => {
   });
 });
 
+// Crear servidor para el registro y login en el puerto 3001
 app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
+  console.log(`Servidor de registro y login corriendo en http://localhost:${port}`);
 });

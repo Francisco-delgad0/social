@@ -1,11 +1,13 @@
 /* src/components/homepage.css */
+
+/* Estilos generales existentes */
 .homepage-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_601373010_378088.jpg'); 
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_601373010_378088.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -16,29 +18,81 @@
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
 }
 
-h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+/* Nuevos estilos específicos para la página Prueba */
+.homepage-container.prueba {
+    flex-direction: column; /* Cambiar dirección del contenido a columna */
+    justify-content: flex-start; /* Alinear el contenido al inicio verticalmente */
+    padding: 20px;
+    height: auto; /* Permitir que la altura sea dinámica */
 }
 
-p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+.homepage-container.prueba .header-content {
+    margin-bottom: 30px; /* Espacio entre el encabezado y el formulario */
 }
 
-.cta-button {
-    background-color: #007bff;
+.form-section, .visualizador-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto; /* Centrar el contenido horizontalmente */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-section {
+    margin-top: 30px; /* Espacio adicional debajo del header */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #28a745;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.cta-button:hover {
-    background-color: #0056b3;
+button:hover {
+    background-color: #218838;
+}
+
+.postulaciones-list {
+    list-style: none;
+    padding: 0;
+}
+
+.postulacion-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.postulacion-item p {
+    margin: 5px 0;
 }

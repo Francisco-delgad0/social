@@ -8,10 +8,13 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.0",
+    "googleapis": "^144.0.0",
     "i18next": "^23.16.4",
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
@@ -25,10 +28,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "start": "concurrently \"npm run client\" \"npm run server\" \"npm run subir\"",
     "client": "react-scripts start",
-    "server": "node src/back/server.js"
-  },
+    "server": "node src/back/server.js",
+    "subir": "node src/back/subir.js"
+},
   "eslintConfig": {
     "extends": [
       "react-app",

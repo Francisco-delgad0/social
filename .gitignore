@@ -18,7 +18,8 @@
 .env.test.local
 .env.production.local
 .env
-src/back/datos.json
+/src/back/datos.json
+datos.json
 
 npm-debug.log*
 yarn-debug.log*
